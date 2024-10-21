@@ -11,14 +11,14 @@ metadata:
   title:
     default: Marlogistic
     template: '%s — Marlogistic'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Soluciones eficientes para tu almacenamiento global."
   robots:
     index: true
     follow: true
   openGraph:
     site_name: Marlogistic
     images:
-      - url: '~/assets/images/default.png'
+      - url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fes%2Fpng-ybakb&psig=AOvVaw2BLhZZs2uypnDjRREC6WGu&ust=1729625301632000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIixzMKaoIkDFQAAAAAdAAAAABAE'
         width: 1200
         height: 628
     type: website
