@@ -1,6 +1,6 @@
 site:
   name: Marlogistic
-  site: 'https://astrowind.vercel.app'
+  site: 'https://marlogistic.vercel.app/'
   base: '/'
   trailingSlash: false
 
