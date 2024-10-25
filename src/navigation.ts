@@ -5,7 +5,6 @@ export const headerData = {
     {
       text: 'Inicio',
       href: '/',
-
     },
 
     {
