@@ -18,7 +18,6 @@ export const headerData = {
     {
       text: 'Contacto',
       href: '/contact',
-      /* href: 'mailto:fabian@marlogistic.com.ar' */
     },
   ],
 };
@@ -54,7 +53,7 @@ export const footerData = {
     {
       title: 'Contacto',
       links: [
-        { text: 'Contáctanos', href: '#' },
+        { text: 'Contáctanos', href: '/contact' },
         { text: 'Ubicaciones', href: '#' },
         { text: 'Solicitar Presupuesto', href: 'mailto:fabian@marlogistic.com.ar' },
       ],
