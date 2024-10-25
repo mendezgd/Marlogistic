@@ -18,7 +18,8 @@ export const headerData = {
     },
     {
       text: 'Contacto',
-      href: 'mailto:fabian@marlogistic.com.ar'
+      href: '/contact',
+      /* href: 'mailto:fabian@marlogistic.com.ar' */
     },
   ],
 };
