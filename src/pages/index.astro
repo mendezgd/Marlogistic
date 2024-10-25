@@ -25,7 +25,7 @@ const metadata = {
       },
       { text: 'Saber Más', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/mar1.webp', alt: 'Marlogistic Hero Image' }}
+    image={{ src: '~/assets/images/mar9.webp', alt: 'Marlogistic Hero Image' }}
   >
     <Fragment slot="title">
       Almacenamiento Confiable <span class="hidden xl:inline">para tu negocio</span>
@@ -69,7 +69,7 @@ const metadata = {
         icon: 'tabler:shield',
       },
       {
-        title: 'Logística Integrada',
+        title: 'Operador logístico 3PL',
         description:
           ' Soluciones completas que incluyen transporte y distribución, facilitando toda la cadena de suministro.',
         icon: 'tabler:tir',
@@ -102,13 +102,16 @@ const metadata = {
         description:
           'Estamos preparados para responder rápidamente a cualquier necesidad o emergencia de nuestros clientes.',
       },
-      {
-        title: 'Transparencia',
-        description: 'Ofrecemos total transparencia en todas nuestras operaciones y procesos.',
-      },
+
       {
         title: 'Cumplimiento Normativo',
         description: 'Nos aseguramos de cumplir con todas las regulaciones y normativas aplicables.',
+      },
+
+      {
+        title: 'Optimización de Espacios',
+        description:
+          'Implementamos soluciones innovadoras para maximizar el uso del espacio disponible, reduciendo costos y mejorando la eficiencia operativa.',
       },
     ]}
     image={{
@@ -140,12 +143,8 @@ const metadata = {
         description: 'Nos esforzamos constantemente en mejorar y adoptar nuevas tecnologías.',
       },
       {
-        title: 'Facilidad de Acceso',
-        description: 'Nuestras instalaciones están ubicadas estratégicamente para facilitar el acceso.',
-      },
-      {
-        title: 'Escalabilidad',
-        description: 'Podemos ajustar nuestros servicios para empresas de cualquier tamaño.',
+        title: 'Maquinaria de Última Generación',
+        description: 'Equipos modernos y eficientes para garantizar una gestión precisa y segura de tus bienes.',
       },
     ]}
     image={{
@@ -155,5 +154,32 @@ const metadata = {
   >
     <Fragment slot="content">Garantizamos tu satisfacción con servicios de almacenamiento personalizados.</Fragment
     ></Content
-  ></Layout
->
+  >
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Escalabilidad',
+        description: 'Podemos ajustar nuestros servicios para empresas de cualquier tamaño.',
+      },
+      {
+        title: 'Transparencia',
+        description: 'Ofrecemos total transparencia en todas nuestras operaciones y procesos.',
+      },
+      {
+        title: 'Facilidad de Acceso',
+        description: 'Nuestras instalaciones están ubicadas estratégicamente para facilitar el acceso.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/mar2.webp',
+      alt: 'Imagen de depósito',
+    }}
+  >
+    <Fragment slot="content">Aseguramos una gestión precisa y transparente de tus bienes en todo momento.</Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+</Layout>
