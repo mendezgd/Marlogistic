@@ -19,6 +19,10 @@ export const headerData = {
       text: 'Contacto',
       href: '/contact',
     },
+    {
+      text: 'Ubicación',
+      href: '/ubicacion',
+    },
   ],
 };
 
@@ -30,23 +34,18 @@ export const footerData = {
         { text: 'Almacenamiento Personalizado', href: '#' },
         { text: 'Logística Integrada', href: '#' },
         { text: 'Seguridad 24/7', href: '#' },
-        { text: 'Atención al Cliente', href: '#' },
       ],
     },
     {
       title: 'Nosotros',
       links: [
-        { text: 'Nuestra Historia', href: '#' },
-        { text: 'Misión y Visión', href: '#' },
-        { text: 'Equipo', href: '#' },
+        { text: 'Quienes somos?', href: '/#quienes' },
       ],
     },
     {
       title: 'Recursos',
       links: [
-        { text: 'Guías y Tutoriales', href: '#' },
-        { text: 'Centro de Ayuda', href: '#' },
-        { text: 'Preguntas Frecuentes', href: '#' },
+        { text: 'Centro de Ayuda', href: '/contact' },
       ],
     },
 
@@ -54,17 +53,16 @@ export const footerData = {
       title: 'Contacto',
       links: [
         { text: 'Contáctanos', href: '/contact' },
-        { text: 'Ubicaciones', href: '#' },
+        { text: 'Ubicación', href: '/ubicacion' },
         { text: 'Solicitar Presupuesto', href: 'mailto:fabian@marlogistic.com.ar' },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Todos los derechos reservados' },
   ],
-  socialLinks: [
+  /* socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-  ],
+  ], */
 };
