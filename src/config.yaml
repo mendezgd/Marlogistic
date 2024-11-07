@@ -11,7 +11,7 @@ metadata:
   title:
     default: Marlogistic
     template: '%s — Marlogistic'
-  description: "\U0001F680 Optimización logística y almacenamiento seguro para tu negocio."
+  description: "\U0001F69A Optimización logística y almacenamiento seguro para tu negocio."
   robots:
     index: true
     follow: true
