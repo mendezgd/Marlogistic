@@ -54,15 +54,15 @@ export const footerData = {
       links: [
         { text: 'Contáctanos', href: '/contact' },
         { text: 'Ubicación', href: '/ubicacion' },
-        { text: 'Solicitar Presupuesto', href: 'mailto:fabian@marlogistic.com.ar' },
+        { text: 'Solicitar Presupuesto', href: 'mailto:pedidos@marlogistic.com.ar' },
       ],
     },
   ],
   secondaryLinks: [
     { text: 'Todos los derechos reservados' },
   ],
-  /* socialLinks: [
+  socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-  ], */
+    /* { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' }, */
+  ],
 };
