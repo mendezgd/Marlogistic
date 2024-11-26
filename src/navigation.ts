@@ -38,15 +38,11 @@ export const footerData = {
     },
     {
       title: 'Nosotros',
-      links: [
-        { text: 'Quienes somos?', href: '/#quienes' },
-      ],
+      links: [{ text: 'Quienes somos?', href: '/#quienes' }],
     },
     {
       title: 'Recursos',
-      links: [
-        { text: 'Centro de Ayuda', href: '/contact' },
-      ],
+      links: [{ text: 'Centro de Ayuda', href: '/contact' }],
     },
 
     {
@@ -58,9 +54,7 @@ export const footerData = {
       ],
     },
   ],
-  secondaryLinks: [
-    { text: 'Todos los derechos reservados' },
-  ],
+  secondaryLinks: [{ text: 'Todos los derechos reservados' }],
   socialLinks: [
     /* { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' }, */
     /* { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' }, */
