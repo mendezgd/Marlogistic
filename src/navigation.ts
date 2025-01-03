@@ -28,14 +28,14 @@ export const headerData = {
 
 export const footerData = {
   links: [
-    {
+    /* {
       title: 'Servicios',
       links: [
         { text: 'Almacenamiento Personalizado', href: '#' },
         { text: 'Logística Integrada', href: '#' },
         { text: 'Seguridad 24/7', href: '#' },
       ],
-    },
+    }, */
     {
       title: 'Nosotros',
       links: [
@@ -55,6 +55,8 @@ export const footerData = {
         { text: 'Contáctanos', href: '/contact' },
         { text: 'Ubicación', href: '/ubicacion' },
         { text: 'Solicitar Presupuesto', href: 'mailto:pedidos@marlogistic.com.ar' },
+        { text: 'Whatsapp', href: 'https://wa.me/541134896666', target: '_blank' },
+
       ],
     },
   ],
