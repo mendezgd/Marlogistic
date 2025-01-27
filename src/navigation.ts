@@ -20,7 +20,7 @@ export const headerData = {
       href: '/contact',
     }, */
     {
-      text: 'Contacto',
+      text: 'Contacto y ubicación',
       href: '/ubicacion',
     },
   ],
@@ -42,7 +42,7 @@ export const footerData = {
     },
     {
       title: 'Recursos',
-      links: [{ text: 'Centro de Ayuda', href: '/contact' }],
+      links: [{ text: 'Whatsapp', href: 'https://wa.me/541134896666', target: '_blank' }],
     },
 
     {
@@ -51,7 +51,6 @@ export const footerData = {
         { text: 'Contactanos', href: '/ubicacion' },
         /* { text: 'Ubicación', href: '/ubicacion' }, */
         { text: 'Solicitar Presupuesto', href: 'mailto:pedidos@marlogistic.com.ar' },
-        { text: 'Whatsapp', href: 'https://wa.me/541134896666', target: '_blank' },
       ],
     },
   ],
