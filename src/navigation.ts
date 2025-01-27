@@ -52,7 +52,6 @@ export const footerData = {
         { text: 'Ubicación', href: '/ubicacion' },
         { text: 'Solicitar Presupuesto', href: 'mailto:pedidos@marlogistic.com.ar' },
         { text: 'Whatsapp', href: 'https://wa.me/541134896666', target: '_blank' },
-
       ],
     },
   ],
