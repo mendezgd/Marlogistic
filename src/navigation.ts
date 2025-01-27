@@ -15,12 +15,12 @@ export const headerData = {
       text: 'Quienes sómos?',
       href: getPermalink('/#quienes'),
     },
-    {
+    /* {
       text: 'Contacto',
       href: '/contact',
-    },
+    }, */
     {
-      text: 'Ubicación',
+      text: 'Contacto',
       href: '/ubicacion',
     },
   ],
@@ -48,8 +48,8 @@ export const footerData = {
     {
       title: 'Contacto',
       links: [
-        { text: 'Contáctanos', href: '/contact' },
-        { text: 'Ubicación', href: '/ubicacion' },
+        { text: 'Contactanos', href: '/ubicacion' },
+        /* { text: 'Ubicación', href: '/ubicacion' }, */
         { text: 'Solicitar Presupuesto', href: 'mailto:pedidos@marlogistic.com.ar' },
         { text: 'Whatsapp', href: 'https://wa.me/541134896666', target: '_blank' },
       ],
